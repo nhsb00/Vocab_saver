@@ -17,3 +17,85 @@
 
     cursor: pointer;
 }
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+
+    border: solid 1px gray;
+    border-radius: 10px;
+}
+
+span.example {
+    color: gray;
+    font-size: 14px;
+}
+
+.btn-sparta {
+    color: #fff;
+    background-color: #e8344e;
+    border-color: #e8344e;
+}
+
+.btn-outline-sparta {
+    color: #e8344e;
+    background-color: transparent;
+    background-image: none;
+    border-color: #e8344e;
+}
+
+.search-box {
+    width: 70%;
+    margin: 50px auto;
+    max-width: 700px;
+}
+
+.table {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    table-layout: fixed;
+}
+
+.table th {
+    border-top-style: none;
+}
+
+td {
+    background-color: white;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+td > a, a:visited, a:hover, a:active {
+    color: black;
+}
+
+thead:first-child tr:first-child th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+thead:first-child tr:first-child th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+tbody:last-child tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+tbody:last-child tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+
+tr.highlight > td {
+    background-color: red;
+    color: white;
+}
+
+tr.highlight > td > a {
+    color: white;
+}
